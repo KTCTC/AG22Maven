@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="KTCTC" duration-ms="212" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="100" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+      <class name="annotations.AnnotationClass2">
+        <test-method status="PASS" signature="beforeClassAnnotation()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="beforeClassAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="verifyUserCanBeAdded()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="verifyUserCanBeAdded" duration-ms="2" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeAdded -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="verifyUserCanBeEdited()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="verifyUserCanBeEdited" duration-ms="2" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeEdited -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClassAnnotation()[pri:0, instance:annotations.AnnotationClass2@184f6be2]" name="afterClassAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAnnotation -->
+      </class> <!-- annotations.AnnotationClass2 -->
+      <class name="annotations.AnnotationClass">
+        <test-method status="PASS" signature="beforeTestAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="beforeTestAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestAnnotation -->
+        <test-method status="PASS" signature="beforeClassAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="beforeClassAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="6" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="afterMethodAnnotation" is-config="true" duration-ms="11" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="toVerifyUserCanNotLoginWithInvalidCredentials()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="toVerifyUserCanNotLoginWithInvalidCredentials" duration-ms="2" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanNotLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClassAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="afterClassAnnotation" is-config="true" duration-ms="0" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAnnotation -->
+        <test-method status="PASS" signature="afterTestAnnotation()[pri:0, instance:annotations.AnnotationClass@6895a785]" name="afterTestAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestAnnotation -->
+      </class> <!-- annotations.AnnotationClass -->
+    </test> <!-- Regression -->
+    <test name="Smoke" duration-ms="38" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+      <class name="annotations.AnnotationClass3">
+        <test-method status="PASS" signature="beforeSuiteAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="beforeSuiteAnnotation" is-config="true" duration-ms="33" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteAnnotation -->
+        <test-method status="PASS" signature="beforeTestAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="beforeTestAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestAnnotation -->
+        <test-method status="PASS" signature="beforeClassAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="beforeClassAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="verifyUserCanBeDeleted()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="verifyUserCanBeDeleted" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeDeleted -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="afterMethodAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="beforeMethodAnnotation" is-config="true" duration-ms="16" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="verifyUserCountGetsReduced()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="verifyUserCountGetsReduced" duration-ms="3" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCountGetsReduced -->
+        <test-method status="PASS" signature="afterClassAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="afterClassAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAnnotation -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterTestAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="afterTestAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestAnnotation -->
+        <test-method status="PASS" signature="afterSuiteAnnotation()[pri:0, instance:annotations.AnnotationClass3@ea1a8d5]" name="afterSuiteAnnotation" is-config="true" duration-ms="1" started-at="2022-12-02T21:26:41 IST" finished-at="2022-12-02T21:26:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteAnnotation -->
+      </class> <!-- annotations.AnnotationClass3 -->
+    </test> <!-- Smoke -->
+  </suite> <!-- KTCTC -->
+</testng-results>
