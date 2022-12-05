@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="141" started-at="2022-12-04T21:30:07 IST" finished-at="2022-12-04T21:30:07 IST">
+  <suite name="Default suite" duration-ms="17956" started-at="2022-12-05T21:33:52 IST" finished-at="2022-12-05T21:34:10 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="141" started-at="2022-12-04T21:30:07 IST" finished-at="2022-12-04T21:30:07 IST">
-      <class name="misleneouse.DependentTestCases">
-        <test-method status="FAIL" signature="toVerifyUsedCanSendEmail()[pri:0, instance:misleneouse.DependentTestCases@1c3a4799]" name="toVerifyUsedCanSendEmail" duration-ms="17" started-at="2022-12-04T21:30:07 IST" finished-at="2022-12-04T21:30:07 IST">
+    <test name="Default test" duration-ms="17956" started-at="2022-12-05T21:33:52 IST" finished-at="2022-12-05T21:34:10 IST">
+      <class name="screencap.ScreenCaptureClass2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="beforeClass" is-config="true" duration-ms="4908" started-at="2022-12-05T21:33:52 IST" finished-at="2022-12-05T21:33:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="sample()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="sample" duration-ms="5013" started-at="2022-12-05T21:33:57 IST" finished-at="2022-12-05T21:34:02 IST">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The following asserts failed:
-Username is not matching expected [ertertet] but found [ABCD]]]>
+              <![CDATA[expected [adfgdgfdg] but found [3435345]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Username is not matching expected [ertertet] but found [ABCD]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at misleneouse.DependentTestCases.toVerifyUsedCanSendEmail(DependentTestCases.java:29)
+              <![CDATA[java.lang.AssertionError: expected [adfgdgfdg] but found [3435345]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at screencap.ScreenCaptureClass2.sample(ScreenCaptureClass2.java:56)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -52,19 +58,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- toVerifyUsedCanSendEmail -->
-        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:misleneouse.DependentTestCases@1c3a4799]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="17" started-at="2022-12-04T21:30:07 IST" finished-at="2022-12-04T21:30:07 IST">
+        </test-method> <!-- sample -->
+        <test-method status="PASS" signature="afterMethodAnnotation(org.testng.ITestResult)[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="afterMethodAnnotation" is-config="true" duration-ms="574" started-at="2022-12-05T21:34:02 IST" finished-at="2022-12-05T21:34:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sample status=FAILURE method=ScreenCaptureClass2.sample()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
-        <test-method status="SKIP" signature="verifyUserCountGetsReduced()[pri:0, instance:misleneouse.DependentTestCases@1c3a4799]" name="verifyUserCountGetsReduced" duration-ms="0" started-at="2022-12-04T21:30:07 IST" depends-on-methods="misleneouse.DependentTestCases.toVerifyUsedCanSendEmail, misleneouse.DependentTestCases.toVerifyUserCanLoginWithValidUserNameAndPassword" finished-at="2022-12-04T21:30:07 IST">
-          <exception class="java.lang.Throwable">
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="FAIL" signature="verifyFileCanBeUploaded()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="verifyFileCanBeUploaded" duration-ms="7150" started-at="2022-12-05T21:34:03 IST" finished-at="2022-12-05T21:34:10 IST">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Method DependentTestCases.verifyUserCountGetsReduced()[pri:0, instance:misleneouse.DependentTestCases@1c3a4799] depends on not successfully finished methods]]>
+              <![CDATA[expected [1 file
+has been successfully ] but found [1 file
+has been successfully uploaded.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method DependentTestCases.verifyUserCountGetsReduced()[pri:0, instance:misleneouse.DependentTestCases@1c3a4799] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+              <![CDATA[java.lang.AssertionError: expected [1 file
+has been successfully ] but found [1 file
+has been successfully uploaded.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at screencap.ScreenCaptureClass2.verifyFileCanBeUploaded(ScreenCaptureClass2.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.util.ArrayList.forEach(Unknown Source)
@@ -85,11 +118,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserCountGetsReduced -->
-      </class> <!-- misleneouse.DependentTestCases -->
+        </test-method> <!-- verifyFileCanBeUploaded -->
+        <test-method status="PASS" signature="afterMethodAnnotation(org.testng.ITestResult)[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="afterMethodAnnotation" is-config="true" duration-ms="227" started-at="2022-12-05T21:34:10 IST" finished-at="2022-12-05T21:34:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFileCanBeUploaded status=FAILURE method=ScreenCaptureClass2.verifyFileCanBeUploaded()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+      </class> <!-- screencap.ScreenCaptureClass2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

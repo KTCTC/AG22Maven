@@ -18,7 +18,7 @@ public class SoftAssertsInTestNG {
 		sAssert.assertTrue(flag, "User name is not displayed");		
 		sAssert.assertFalse(fl1, "Sign up option is still displayed");		
 		System.out.println("After assert");
-		sAssert.assertAll();
+		sAssert.assertAll();		
 	}
 
 	@Test

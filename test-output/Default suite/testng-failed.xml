@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="misleneouse.DependentTestCases">
+      <class name="screencap.ScreenCaptureClass2">
         <methods>
-          <include name="toVerifyUserCanLoginWithValidUserNameAndPassword"/>
-          <include name="toVerifyUsedCanSendEmail"/>
-          <include name="verifyUserCountGetsReduced"/>
+          <include name="afterMethodAnnotation"/>
+          <include name="sample"/>
+          <include name="beforeClass"/>
+          <include name="verifyFileCanBeUploaded"/>
         </methods>
-      </class> <!-- misleneouse.DependentTestCases -->
+      </class> <!-- screencap.ScreenCaptureClass2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
