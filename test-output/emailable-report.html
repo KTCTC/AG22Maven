@@ -8,86 +8,147 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">17,956</td><td></td><td></td></tr>
+<tr><th colspan="8">Ecomm</th></tr>
+<tr><td><a href="#t0">Regression</a></td><td class="num">29</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">13</td><td class="num">235,493</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">screencap.ScreenCaptureClass2</td><td><a href="#m0">sample</a></td><td rowspan="1">1670256237791</td><td rowspan="1">5013</td></tr><tr class="failedeven"><td><a href="#m1">verifyFileCanBeUploaded</a></td><td rowspan="1">1670256243396</td><td rowspan="1">7150</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Ecomm</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">assertions.AssertsInTestNG</td><td><a href="#m0">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td><td rowspan="1">1670340882669</td><td rowspan="1">15</td></tr><tr class="failedeven"><td><a href="#m1">toVerifyUserCanNotLoginWithInvalidCredentials</a></td><td rowspan="1">1670340882686</td><td rowspan="1">6</td></tr><tr class="failedeven"><td><a href="#m2">verifyUserCanBeDeleted</a></td><td rowspan="1">1670340882696</td><td rowspan="1">5</td></tr><tr class="failedeven"><td><a href="#m3">verifyUserCountGetsReduced</a></td><td rowspan="1">1670340882758</td><td rowspan="1">3</td></tr><tr class="failedodd"><td rowspan="3">assertions.SoftAssertsInTestNG</td><td><a href="#m4">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td><td rowspan="1">1670340882815</td><td rowspan="1">2</td></tr><tr class="failedodd"><td><a href="#m5">verifyUserCanBeDeleted</a></td><td rowspan="1">1670340882852</td><td rowspan="1">14</td></tr><tr class="failedodd"><td><a href="#m6">verifyUserCountGetsReduced</a></td><td rowspan="1">1670340882880</td><td rowspan="1">10</td></tr><tr class="failedeven"><td rowspan="1">brockenlink.BrockenLinkClass6</td><td><a href="#m7">brockenLinkMethod</a></td><td rowspan="1">1670340839055</td><td rowspan="1">235348</td></tr><tr class="failedodd"><td rowspan="1">misleneouse.DependentTestCases</td><td><a href="#m8">toVerifyUsedCanSendEmail</a></td><td rowspan="1">1670340882451</td><td rowspan="1">58</td></tr><tr class="failedeven"><td rowspan="1">misleneouse.EnableInTestNG</td><td><a href="#m9">toVerifyUserCanNotLoginWithInvalidCredentials</a></td><td rowspan="1">1670340882978</td><td rowspan="1">21</td></tr><tr class="failedodd"><td rowspan="1">misleneouse.InvocationCount</td><td><a href="#m10">toVerifyUserCanNotLoginWithInvalidCredentials</a></td><td rowspan="1">1670340882918</td><td rowspan="1">1</td></tr><tr class="failedeven"><td rowspan="2">screencap.ScreenCaptureClass2</td><td><a href="#m11">sample</a></td><td rowspan="1">1670340877937</td><td rowspan="1">27855</td></tr><tr class="failedeven"><td><a href="#m12">verifyFileCanBeUploaded</a></td><td rowspan="1">1670340911515</td><td rowspan="1">16552</td></tr><tr><th colspan="4">Regression &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">misleneouse.DependentTestCases</td><td><a href="#m13">verifyUserCountGetsReduced</a></td><td rowspan="1">1670340925369</td><td rowspan="1">1</td></tr><tr><th colspan="4">Regression &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">annotations.AnnotationClass</td><td><a href="#m14">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td><td rowspan="1">1670340882553</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m15">toVerifyUserCanNotLoginWithInvalidCredentials</a></td><td rowspan="1">1670340882631</td><td rowspan="1">14</td></tr><tr class="passedodd"><td rowspan="2">annotations.AnnotationClass2</td><td><a href="#m16">verifyUserCanBeAdded</a></td><td rowspan="1">1670340925314</td><td rowspan="1">5</td></tr><tr class="passedodd"><td><a href="#m17">verifyUserCanBeEdited</a></td><td rowspan="1">1670340925321</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="2">annotations.AnnotationClass3</td><td><a href="#m18">verifyUserCanBeDeleted</a></td><td rowspan="1">1670340925330</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m19">verifyUserCountGetsReduced</a></td><td rowspan="1">1670340925354</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="1">assertions.SoftAssertsInTestNG</td><td><a href="#m20">toVerifyUserCanNotLoginWithInvalidCredentials</a></td><td rowspan="1">1670340882850</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="1">brockenlink.BrockenLinkClass</td><td><a href="#m21">brockenLinkMethod</a></td><td rowspan="1">1670340839008</td><td rowspan="1">1355</td></tr><tr class="passedodd"><td rowspan="1">brockenlink.BrockenLinkClass2</td><td><a href="#m22">brockenLinkMethod</a></td><td rowspan="1">1670340869348</td><td rowspan="1">24181</td></tr><tr class="passedeven"><td rowspan="1">brockenlink.BrockenLinkClass3</td><td><a href="#m23">brockenLinkMethod</a></td><td rowspan="1">1670340840364</td><td rowspan="1">28982</td></tr><tr class="passedodd"><td rowspan="1">brockenlink.BrockenLinkClass4</td><td><a href="#m24">brockenLinkMethod</a></td><td rowspan="1">1670340839008</td><td rowspan="1">31778</td></tr><tr class="passedeven"><td rowspan="1">brockenlink.BrockenLinkClass5</td><td><a href="#m25">brockenLinkMethod</a></td><td rowspan="1">1670340839008</td><td rowspan="1">43436</td></tr><tr class="passedodd"><td rowspan="2">dataprovider.DataProviderClasss</td><td><a href="#m26">verifyCredentialsOfUser</a></td><td rowspan="2">1670340883183</td><td rowspan="2">2</td></tr><tr class="passedodd"><td><a href="#m27">verifyCredentialsOfUser</a></td></tr><tr class="passedeven"><td rowspan="2">dataprovider.DataProviderClasss2</td><td><a href="#m28">verifyNewUserCanBeAddedInSystem</a></td><td rowspan="2">1670340922954</td><td rowspan="2">2341</td></tr><tr class="passedeven"><td><a href="#m29">verifyNewUserCanBeAddedInSystem</a></td></tr><tr class="passedodd"><td rowspan="1">misleneouse.DependentTestCases</td><td><a href="#m30">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td><td rowspan="1">1670340882516</td><td rowspan="1">3</td></tr><tr class="passedeven"><td rowspan="5">misleneouse.InvocationCount</td><td><a href="#m31">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td><td rowspan="5">1670340882898</td><td rowspan="5">2</td></tr><tr class="passedeven"><td><a href="#m32">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m33">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m34">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m35">toVerifyUserCanLoginWithValidUserNameAndPassword</a></td></tr><tr class="passedodd"><td rowspan="6">misleneouse.PriorityClass</td><td><a href="#m36">a</a></td><td rowspan="1">1670340839008</td><td rowspan="1">5</td></tr><tr class="passedodd"><td><a href="#m37">aMethod</a></td><td rowspan="1">1670340839024</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m38">b</a></td><td rowspan="1">1670340839020</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m39">bMethod</a></td><td rowspan="1">1670340839027</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m40">cMethod</a></td><td rowspan="1">1670340839038</td><td rowspan="1">8</td></tr><tr class="passedodd"><td><a href="#m41">d</a></td><td rowspan="1">1670340839032</td><td rowspan="1">3</td></tr><tr class="passedeven"><td rowspan="1">screencap.ScreenCaptureClass</td><td><a href="#m42">verifyFileCanBeUploaded</a></td><td rowspan="1">1670340883190</td><td rowspan="1">44726</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">screencap.ScreenCaptureClass2#sample</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [adfgdgfdg] but found [3435345]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
+<h2>Regression</h2><h3 id="m0">assertions.AssertsInTestNG#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User name is not displayed expected [true] but found [false]
+	at assertions.AssertsInTestNG.toVerifyUserCanLoginWithValidUserNameAndPassword(AssertsInTestNG.java:15)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">assertions.AssertsInTestNG#toVerifyUserCanNotLoginWithInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Username is not matching expected [abcd] but found [ABCD]
+	at assertions.AssertsInTestNG.toVerifyUserCanNotLoginWithInvalidCredentials(AssertsInTestNG.java:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">assertions.AssertsInTestNG#verifyUserCanBeDeleted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Object still null expected object to not be null
+	at assertions.AssertsInTestNG.verifyUserCanBeDeleted(AssertsInTestNG.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">assertions.AssertsInTestNG#verifyUserCountGetsReduced</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at assertions.AssertsInTestNG.verifyUserCountGetsReduced(AssertsInTestNG.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">assertions.SoftAssertsInTestNG#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	User name is not displayed expected [true] but found [false],
+	Sign up option is still displayed expected [false] but found [true]
+	at assertions.SoftAssertsInTestNG.toVerifyUserCanLoginWithValidUserNameAndPassword(SoftAssertsInTestNG.java:21)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">assertions.SoftAssertsInTestNG#verifyUserCanBeDeleted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Object still null expected object to not be null
+	at assertions.SoftAssertsInTestNG.verifyUserCanBeDeleted(SoftAssertsInTestNG.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">assertions.SoftAssertsInTestNG#verifyUserCountGetsReduced</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at assertions.SoftAssertsInTestNG.verifyUserCountGetsReduced(SoftAssertsInTestNG.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">brockenlink.BrockenLinkClass6#brockenLinkMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-D2GVCL39&apos;, ip: &apos;192.168.29.64&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\91992\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e1b55a7158fd12d1aedb4db0b759b7a2
+*** Element info: {Using=tag name, value=a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at brockenlink.BrockenLinkClass6.brockenLinkMethod(BrockenLinkClass6.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">misleneouse.DependentTestCases#toVerifyUsedCanSendEmail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Username is not matching expected [ertertet] but found [ABCD]
+	at misleneouse.DependentTestCases.toVerifyUsedCanSendEmail(DependentTestCases.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">misleneouse.EnableInTestNG#toVerifyUserCanNotLoginWithInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Username is not matching expected [abcd] but found [ABCD]
+	at misleneouse.EnableInTestNG.toVerifyUserCanNotLoginWithInvalidCredentials(EnableInTestNG.java:21)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">misleneouse.InvocationCount#toVerifyUserCanNotLoginWithInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Username is not matching expected [abcd] but found [ABCD]
+	at misleneouse.InvocationCount.toVerifyUserCanNotLoginWithInvalidCredentials(InvocationCount.java:21)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">screencap.ScreenCaptureClass2#sample</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [adfgdgfdg] but found [3435345]
 	at screencap.ScreenCaptureClass2.sample(ScreenCaptureClass2.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">screencap.ScreenCaptureClass2#verifyFileCanBeUploaded</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1 file
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">screencap.ScreenCaptureClass2#verifyFileCanBeUploaded</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1 file
 has been successfully ] but found [1 file
 has been successfully uploaded.]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
 	at screencap.ScreenCaptureClass2.verifyFileCanBeUploaded(ScreenCaptureClass2.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">misleneouse.DependentTestCases#verifyUserCountGetsReduced</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method DependentTestCases.verifyUserCountGetsReduced()[pri:0, instance:misleneouse.DependentTestCases@458c1321] depends on not successfully finished methods
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">annotations.AnnotationClass#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">annotations.AnnotationClass#toVerifyUserCanNotLoginWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">annotations.AnnotationClass2#verifyUserCanBeAdded</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">annotations.AnnotationClass2#verifyUserCanBeEdited</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">annotations.AnnotationClass3#verifyUserCanBeDeleted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">annotations.AnnotationClass3#verifyUserCountGetsReduced</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">assertions.SoftAssertsInTestNG#toVerifyUserCanNotLoginWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">brockenlink.BrockenLinkClass#brockenLinkMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">brockenlink.BrockenLinkClass2#brockenLinkMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">brockenlink.BrockenLinkClass3#brockenLinkMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">brockenlink.BrockenLinkClass4#brockenLinkMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">brockenlink.BrockenLinkClass5#brockenLinkMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">dataprovider.DataProviderClasss#verifyCredentialsOfUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sanket</td><td>Sak@2222</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">dataprovider.DataProviderClasss#verifyCredentialsOfUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Amit</td><td>Amit@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">dataprovider.DataProviderClasss2#verifyNewUserCanBeAddedInSystem</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Sanket</td><td>P</td><td>sanket@gmail.com</td><td>25</td><td>54567</td><td>HR</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">dataprovider.DataProviderClasss2#verifyNewUserCanBeAddedInSystem</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Amit</td><td>patil</td><td>am@p.com</td><td>22</td><td>23456</td><td>IT</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">misleneouse.DependentTestCases#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">misleneouse.InvocationCount#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">misleneouse.InvocationCount#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">misleneouse.InvocationCount#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">misleneouse.InvocationCount#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">misleneouse.InvocationCount#toVerifyUserCanLoginWithValidUserNameAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">misleneouse.PriorityClass#a</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">misleneouse.PriorityClass#aMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">misleneouse.PriorityClass#b</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">misleneouse.PriorityClass#bMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">misleneouse.PriorityClass#cMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">misleneouse.PriorityClass#d</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">screencap.ScreenCaptureClass#verifyFileCanBeUploaded</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ecomm">
+  <test thread-count="4" name="Regression" parallel = "classes">
+    <classes>
+      <class name="dataprovider.DataProviderClasss2"/>
+      <class name="screencap.ScreenCaptureClass2"/>
+      <class name="assertions.SoftAssertsInTestNG"/>
+      <class name="misleneouse.DependentTestCases"/>
+      <class name="misleneouse.InvocationCount"/>
+      <class name="screencap.ScreenCaptureClass"/>
+      <class name="brockenlink.BrockenLinkClass"/>
+      <class name="annotations.AnnotationClass"/>
+      <class name="annotations.AnnotationClass2"/>
+      <class name="annotations.AnnotationClass3"/>
+      <class name="assertions.AssertsInTestNG"/>
+      <class name="misleneouse.EnableInTestNG"/>
+      <class name="brockenlink.BrockenLinkClass5"/>
+      <class name="dataprovider.DataProviderClasss"/>
+      <class name="brockenlink.BrockenLinkClass4"/>
+      <class name="misleneouse.PriorityClass"/>
+      <class name="brockenlink.BrockenLinkClass6"/>
+      <class name="brockenlink.BrockenLinkClass3"/>
+      <class name="brockenlink.BrockenLinkClass2"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Ecomm -->

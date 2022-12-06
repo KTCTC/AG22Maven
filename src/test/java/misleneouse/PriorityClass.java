@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PriorityClass {
 	
-	@Test (priority = -2, dependsOnMethods = "bMethod", enabled = false)
+	@Test (priority = -2, dependsOnMethods = "a", enabled = true)
 	public void cMethod()
 	{
 		System.out.println("cMethod");

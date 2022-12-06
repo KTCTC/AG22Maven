@@ -1,17 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="1" failed="13" ignored="10" total="53" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17956" started-at="2022-12-05T21:33:52 IST" finished-at="2022-12-05T21:34:10 IST">
+  <suite name="Ecomm" duration-ms="235493" started-at="2022-12-06T21:03:58 IST" finished-at="2022-12-06T21:07:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17956" started-at="2022-12-05T21:33:52 IST" finished-at="2022-12-05T21:34:10 IST">
+    <test name="Regression" duration-ms="235493" started-at="2022-12-06T21:03:58 IST" finished-at="2022-12-06T21:07:54 IST">
+      <class name="annotations.AnnotationClass2">
+        <test-method status="PASS" signature="beforeClassAnnotation()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="beforeClassAnnotation" is-config="true" duration-ms="4" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassAnnotation -->
+        <test-method status="PASS" signature="verifyUserCanBeAdded()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="verifyUserCanBeAdded" duration-ms="5" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeAdded -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="verifyUserCanBeEdited()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="verifyUserCanBeEdited" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeEdited -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClassAnnotation()[pri:0, instance:annotations.AnnotationClass2@5faeada1]" name="afterClassAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAnnotation -->
+      </class> <!-- annotations.AnnotationClass2 -->
+      <class name="brockenlink.BrockenLinkClass">
+        <test-method status="PASS" signature="brockenLinkMethod()[pri:0, instance:brockenlink.BrockenLinkClass@7a1ebcd8]" name="brockenLinkMethod" duration-ms="1355" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:04:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brockenLinkMethod -->
+      </class> <!-- brockenlink.BrockenLinkClass -->
+      <class name="screencap.ScreenCaptureClass">
+        <test-method status="PASS" signature="verifyFileCanBeUploaded()[pri:0, instance:screencap.ScreenCaptureClass@34cd072c]" name="verifyFileCanBeUploaded" duration-ms="44726" started-at="2022-12-06T21:04:43 IST" finished-at="2022-12-06T21:05:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileCanBeUploaded -->
+      </class> <!-- screencap.ScreenCaptureClass -->
+      <class name="annotations.AnnotationClass3">
+        <test-method status="PASS" signature="beforeClassAnnotation()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="beforeClassAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassAnnotation -->
+        <test-method status="PASS" signature="verifyUserCanBeDeleted()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="verifyUserCanBeDeleted" duration-ms="1" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeDeleted -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="beforeMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="afterMethodAnnotation" is-config="true" duration-ms="3" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="beforeMethodAnnotation" is-config="true" duration-ms="16" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="verifyUserCountGetsReduced()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="verifyUserCountGetsReduced" duration-ms="2" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCountGetsReduced -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="afterMethodAnnotation" is-config="true" duration-ms="5" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClassAnnotation()[pri:0, instance:annotations.AnnotationClass3@528931cf]" name="afterClassAnnotation" is-config="true" duration-ms="1" started-at="2022-12-06T21:05:25 IST" finished-at="2022-12-06T21:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAnnotation -->
+      </class> <!-- annotations.AnnotationClass3 -->
+      <class name="assertions.AssertsInTestNG">
+        <test-method status="FAIL" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:assertions.AssertsInTestNG@ea1a8d5]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="15" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User name is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User name is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at assertions.AssertsInTestNG.toVerifyUserCanLoginWithValidUserNameAndPassword(AssertsInTestNG.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="FAIL" signature="toVerifyUserCanNotLoginWithInvalidCredentials()[pri:0, instance:assertions.AssertsInTestNG@ea1a8d5]" name="toVerifyUserCanNotLoginWithInvalidCredentials" duration-ms="6" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Username is not matching expected [abcd] but found [ABCD]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Username is not matching expected [abcd] but found [ABCD]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at assertions.AssertsInTestNG.toVerifyUserCanNotLoginWithInvalidCredentials(AssertsInTestNG.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanNotLoginWithInvalidCredentials -->
+        <test-method status="FAIL" signature="verifyUserCanBeDeleted()[pri:0, instance:assertions.AssertsInTestNG@ea1a8d5]" name="verifyUserCanBeDeleted" duration-ms="5" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Object still null expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Object still null expected object to not be null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.assertNotNull(Assert.java:942)
+at assertions.AssertsInTestNG.verifyUserCanBeDeleted(AssertsInTestNG.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeDeleted -->
+        <test-method status="FAIL" signature="verifyUserCountGetsReduced()[pri:0, instance:assertions.AssertsInTestNG@ea1a8d5]" name="verifyUserCountGetsReduced" duration-ms="3" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at assertions.AssertsInTestNG.verifyUserCountGetsReduced(AssertsInTestNG.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCountGetsReduced -->
+      </class> <!-- assertions.AssertsInTestNG -->
+      <class name="misleneouse.PriorityClass">
+        <test-method status="PASS" signature="a()[pri:0, instance:misleneouse.PriorityClass@34c4973]" name="a" duration-ms="5" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:misleneouse.PriorityClass@34c4973]" name="b" duration-ms="2" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="aMethod()[pri:3, instance:misleneouse.PriorityClass@34c4973]" name="aMethod" duration-ms="2" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method status="PASS" signature="bMethod()[pri:3, instance:misleneouse.PriorityClass@34c4973]" name="bMethod" duration-ms="2" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method status="PASS" signature="d()[pri:-12, instance:misleneouse.PriorityClass@34c4973]" name="d" duration-ms="3" started-at="2022-12-06T21:03:59 IST" depends-on-methods="misleneouse.PriorityClass.bMethod" finished-at="2022-12-06T21:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method status="PASS" signature="cMethod()[pri:-2, instance:misleneouse.PriorityClass@34c4973]" name="cMethod" duration-ms="8" started-at="2022-12-06T21:03:59 IST" depends-on-methods="misleneouse.PriorityClass.a" finished-at="2022-12-06T21:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cMethod -->
+      </class> <!-- misleneouse.PriorityClass -->
+      <class name="brockenlink.BrockenLinkClass6">
+        <test-method status="FAIL" signature="brockenLinkMethod()[pri:0, instance:brockenlink.BrockenLinkClass6@52feb982]" name="brockenLinkMethod" duration-ms="235348" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:07:54 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-D2GVCL39', ip: '192.168.29.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\91992\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e1b55a7158fd12d1aedb4db0b759b7a2
+*** Element info: {Using=tag name, value=a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-D2GVCL39', ip: '192.168.29.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\91992\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e1b55a7158fd12d1aedb4db0b759b7a2
+*** Element info: {Using=tag name, value=a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)
+at org.openqa.selenium.By$ByTagName.findElements(By.java:312)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+at brockenlink.BrockenLinkClass6.brockenLinkMethod(BrockenLinkClass6.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brockenLinkMethod -->
+      </class> <!-- brockenlink.BrockenLinkClass6 -->
+      <class name="brockenlink.BrockenLinkClass5">
+        <test-method status="PASS" signature="brockenLinkMethod()[pri:0, instance:brockenlink.BrockenLinkClass5@2bbf4b8b]" name="brockenLinkMethod" duration-ms="43436" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brockenLinkMethod -->
+      </class> <!-- brockenlink.BrockenLinkClass5 -->
+      <class name="dataprovider.DataProviderClasss">
+        <test-method status="PASS" signature="verifyCredentialsOfUser(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderClasss@30a3107a]" name="verifyCredentialsOfUser" duration-ms="3" started-at="2022-12-06T21:04:43 IST" data-provider="credentials" finished-at="2022-12-06T21:04:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amit@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCredentialsOfUser -->
+        <test-method status="PASS" signature="verifyCredentialsOfUser(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderClasss@30a3107a]" name="verifyCredentialsOfUser" duration-ms="2" started-at="2022-12-06T21:04:43 IST" data-provider="credentials" finished-at="2022-12-06T21:04:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanket]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sak@2222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCredentialsOfUser -->
+      </class> <!-- dataprovider.DataProviderClasss -->
+      <class name="brockenlink.BrockenLinkClass4">
+        <test-method status="PASS" signature="brockenLinkMethod()[pri:0, instance:brockenlink.BrockenLinkClass4@33c7e1bb]" name="brockenLinkMethod" duration-ms="31778" started-at="2022-12-06T21:03:59 IST" finished-at="2022-12-06T21:04:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brockenLinkMethod -->
+      </class> <!-- brockenlink.BrockenLinkClass4 -->
       <class name="screencap.ScreenCaptureClass2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="beforeClass" is-config="true" duration-ms="4908" started-at="2022-12-05T21:33:52 IST" finished-at="2022-12-05T21:33:57 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:screencap.ScreenCaptureClass2@1877ab81]" name="beforeClass" is-config="true" duration-ms="7150" started-at="2022-12-06T21:04:30 IST" finished-at="2022-12-06T21:04:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="sample()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="sample" duration-ms="5013" started-at="2022-12-05T21:33:57 IST" finished-at="2022-12-05T21:34:02 IST">
+        <test-method status="FAIL" signature="sample()[pri:0, instance:screencap.ScreenCaptureClass2@1877ab81]" name="sample" duration-ms="27855" started-at="2022-12-06T21:04:37 IST" finished-at="2022-12-06T21:05:05 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [adfgdgfdg] but found [3435345]]]>
@@ -37,40 +382,27 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
-        <test-method status="PASS" signature="afterMethodAnnotation(org.testng.ITestResult)[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="afterMethodAnnotation" is-config="true" duration-ms="574" started-at="2022-12-05T21:34:02 IST" finished-at="2022-12-05T21:34:03 IST">
+        <test-method status="PASS" signature="afterMethodAnnotation(org.testng.ITestResult)[pri:0, instance:screencap.ScreenCaptureClass2@1877ab81]" name="afterMethodAnnotation" is-config="true" duration-ms="5718" started-at="2022-12-06T21:05:05 IST" finished-at="2022-12-06T21:05:11 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sample status=FAILURE method=ScreenCaptureClass2.sample()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2] output={null}]]]>
+                <![CDATA[[TestResult name=sample status=FAILURE method=ScreenCaptureClass2.sample()[pri:0, instance:screencap.ScreenCaptureClass2@1877ab81] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
-        <test-method status="FAIL" signature="verifyFileCanBeUploaded()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="verifyFileCanBeUploaded" duration-ms="7150" started-at="2022-12-05T21:34:03 IST" finished-at="2022-12-05T21:34:10 IST">
+        <test-method status="FAIL" signature="verifyFileCanBeUploaded()[pri:0, instance:screencap.ScreenCaptureClass2@1877ab81]" name="verifyFileCanBeUploaded" duration-ms="16552" started-at="2022-12-06T21:05:11 IST" finished-at="2022-12-06T21:05:28 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1 file
@@ -100,33 +432,20 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFileCanBeUploaded -->
-        <test-method status="PASS" signature="afterMethodAnnotation(org.testng.ITestResult)[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2]" name="afterMethodAnnotation" is-config="true" duration-ms="227" started-at="2022-12-05T21:34:10 IST" finished-at="2022-12-05T21:34:10 IST">
+        <test-method status="PASS" signature="afterMethodAnnotation(org.testng.ITestResult)[pri:0, instance:screencap.ScreenCaptureClass2@1877ab81]" name="afterMethodAnnotation" is-config="true" duration-ms="397" started-at="2022-12-06T21:05:28 IST" finished-at="2022-12-06T21:05:28 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFileCanBeUploaded status=FAILURE method=ScreenCaptureClass2.verifyFileCanBeUploaded()[pri:0, instance:screencap.ScreenCaptureClass2@184f6be2] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFileCanBeUploaded status=FAILURE method=ScreenCaptureClass2.verifyFileCanBeUploaded()[pri:0, instance:screencap.ScreenCaptureClass2@1877ab81] output={null}]]]>
               </value>
             </param>
           </params>
@@ -134,6 +453,403 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- afterMethodAnnotation -->
       </class> <!-- screencap.ScreenCaptureClass2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="brockenlink.BrockenLinkClass3">
+        <test-method status="PASS" signature="brockenLinkMethod()[pri:0, instance:brockenlink.BrockenLinkClass3@7a765367]" name="brockenLinkMethod" duration-ms="28982" started-at="2022-12-06T21:04:00 IST" finished-at="2022-12-06T21:04:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brockenLinkMethod -->
+      </class> <!-- brockenlink.BrockenLinkClass3 -->
+      <class name="misleneouse.EnableInTestNG">
+        <test-method status="FAIL" signature="toVerifyUserCanNotLoginWithInvalidCredentials()[pri:0, instance:misleneouse.EnableInTestNG@1563da5]" name="toVerifyUserCanNotLoginWithInvalidCredentials" duration-ms="21" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Username is not matching expected [abcd] but found [ABCD]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Username is not matching expected [abcd] but found [ABCD]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at misleneouse.EnableInTestNG.toVerifyUserCanNotLoginWithInvalidCredentials(EnableInTestNG.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanNotLoginWithInvalidCredentials -->
+      </class> <!-- misleneouse.EnableInTestNG -->
+      <class name="brockenlink.BrockenLinkClass2">
+        <test-method status="PASS" signature="brockenLinkMethod()[pri:0, instance:brockenlink.BrockenLinkClass2@76b0bfab]" name="brockenLinkMethod" duration-ms="24181" started-at="2022-12-06T21:04:29 IST" finished-at="2022-12-06T21:04:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brockenLinkMethod -->
+      </class> <!-- brockenlink.BrockenLinkClass2 -->
+      <class name="dataprovider.DataProviderClasss2">
+        <test-method status="PASS" signature="lounchBrowser()[pri:0, instance:dataprovider.DataProviderClasss2@4232c52b]" name="lounchBrowser" is-config="true" duration-ms="16595" started-at="2022-12-06T21:04:53 IST" finished-at="2022-12-06T21:05:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method status="PASS" signature="verifyNewUserCanBeAddedInSystem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderClasss2@4232c52b]" name="verifyNewUserCanBeAddedInSystem" duration-ms="7770" started-at="2022-12-06T21:05:15 IST" data-provider="users" finished-at="2022-12-06T21:05:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[am@p.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[IT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserCanBeAddedInSystem -->
+        <test-method status="PASS" signature="verifyNewUserCanBeAddedInSystem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataprovider.DataProviderClasss2@4232c52b]" name="verifyNewUserCanBeAddedInSystem" duration-ms="2341" started-at="2022-12-06T21:05:22 IST" data-provider="users" finished-at="2022-12-06T21:05:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanket]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sanket@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[54567]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserCanBeAddedInSystem -->
+      </class> <!-- dataprovider.DataProviderClasss2 -->
+      <class name="assertions.SoftAssertsInTestNG">
+        <test-method status="FAIL" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:assertions.SoftAssertsInTestNG@305fd85d]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="2" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+User name is not displayed expected [true] but found [false],
+Sign up option is still displayed expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+User name is not displayed expected [true] but found [false],
+Sign up option is still displayed expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at assertions.SoftAssertsInTestNG.toVerifyUserCanLoginWithValidUserNameAndPassword(SoftAssertsInTestNG.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="toVerifyUserCanNotLoginWithInvalidCredentials()[pri:0, instance:assertions.SoftAssertsInTestNG@305fd85d]" name="toVerifyUserCanNotLoginWithInvalidCredentials" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanNotLoginWithInvalidCredentials -->
+        <test-method status="FAIL" signature="verifyUserCanBeDeleted()[pri:0, instance:assertions.SoftAssertsInTestNG@305fd85d]" name="verifyUserCanBeDeleted" duration-ms="14" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Object still null expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Object still null expected object to not be null
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at assertions.SoftAssertsInTestNG.verifyUserCanBeDeleted(SoftAssertsInTestNG.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanBeDeleted -->
+        <test-method status="FAIL" signature="verifyUserCountGetsReduced()[pri:0, instance:assertions.SoftAssertsInTestNG@305fd85d]" name="verifyUserCountGetsReduced" duration-ms="10" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at assertions.SoftAssertsInTestNG.verifyUserCountGetsReduced(SoftAssertsInTestNG.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCountGetsReduced -->
+      </class> <!-- assertions.SoftAssertsInTestNG -->
+      <class name="misleneouse.DependentTestCases">
+        <test-method status="FAIL" signature="toVerifyUsedCanSendEmail()[pri:0, instance:misleneouse.DependentTestCases@458c1321]" name="toVerifyUsedCanSendEmail" duration-ms="58" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Username is not matching expected [ertertet] but found [ABCD]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Username is not matching expected [ertertet] but found [ABCD]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at misleneouse.DependentTestCases.toVerifyUsedCanSendEmail(DependentTestCases.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUsedCanSendEmail -->
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:misleneouse.DependentTestCases@458c1321]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="3" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="SKIP" signature="verifyUserCountGetsReduced()[pri:0, instance:misleneouse.DependentTestCases@458c1321]" name="verifyUserCountGetsReduced" duration-ms="1" started-at="2022-12-06T21:05:25 IST" depends-on-methods="misleneouse.DependentTestCases.toVerifyUsedCanSendEmail, misleneouse.DependentTestCases.toVerifyUserCanLoginWithValidUserNameAndPassword" finished-at="2022-12-06T21:05:25 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DependentTestCases.verifyUserCountGetsReduced()[pri:0, instance:misleneouse.DependentTestCases@458c1321] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DependentTestCases.verifyUserCountGetsReduced()[pri:0, instance:misleneouse.DependentTestCases@458c1321] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCountGetsReduced -->
+      </class> <!-- misleneouse.DependentTestCases -->
+      <class name="misleneouse.InvocationCount">
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:misleneouse.InvocationCount@11438d26]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:misleneouse.InvocationCount@11438d26]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="2" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:misleneouse.InvocationCount@11438d26]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:misleneouse.InvocationCount@11438d26]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:misleneouse.InvocationCount@11438d26]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="FAIL" signature="toVerifyUserCanNotLoginWithInvalidCredentials()[pri:0, instance:misleneouse.InvocationCount@11438d26]" name="toVerifyUserCanNotLoginWithInvalidCredentials" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Username is not matching expected [abcd] but found [ABCD]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Username is not matching expected [abcd] but found [ABCD]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at misleneouse.InvocationCount.toVerifyUserCanNotLoginWithInvalidCredentials(InvocationCount.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanNotLoginWithInvalidCredentials -->
+      </class> <!-- misleneouse.InvocationCount -->
+      <class name="annotations.AnnotationClass">
+        <test-method status="PASS" signature="beforeSuiteAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="beforeSuiteAnnotation" is-config="true" duration-ms="18" started-at="2022-12-06T21:03:58 IST" finished-at="2022-12-06T21:03:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteAnnotation -->
+        <test-method status="PASS" signature="beforeTestAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="beforeTestAnnotation" is-config="true" duration-ms="1" started-at="2022-12-06T21:03:58 IST" finished-at="2022-12-06T21:03:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestAnnotation -->
+        <test-method status="PASS" signature="beforeClassAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="beforeClassAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="beforeMethodAnnotation" is-config="true" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="toVerifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="toVerifyUserCanLoginWithValidUserNameAndPassword" duration-ms="17" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="afterMethodAnnotation" is-config="true" duration-ms="0" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="beforeMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="beforeMethodAnnotation" is-config="true" duration-ms="2" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAnnotation -->
+        <test-method status="PASS" signature="toVerifyUserCanNotLoginWithInvalidCredentials()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="toVerifyUserCanNotLoginWithInvalidCredentials" duration-ms="14" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanNotLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethodAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="afterMethodAnnotation" is-config="true" duration-ms="16" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnnotation -->
+        <test-method status="PASS" signature="afterClassAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="afterClassAnnotation" is-config="true" duration-ms="1" started-at="2022-12-06T21:04:42 IST" finished-at="2022-12-06T21:04:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAnnotation -->
+        <test-method status="PASS" signature="afterTestAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="afterTestAnnotation" is-config="true" duration-ms="6" started-at="2022-12-06T21:07:54 IST" finished-at="2022-12-06T21:07:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestAnnotation -->
+        <test-method status="PASS" signature="afterSuiteAnnotation()[pri:0, instance:annotations.AnnotationClass@57e1b0c]" name="afterSuiteAnnotation" is-config="true" duration-ms="1" started-at="2022-12-06T21:07:55 IST" finished-at="2022-12-06T21:07:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteAnnotation -->
+      </class> <!-- annotations.AnnotationClass -->
+    </test> <!-- Regression -->
+  </suite> <!-- Ecomm -->
 </testng-results>
